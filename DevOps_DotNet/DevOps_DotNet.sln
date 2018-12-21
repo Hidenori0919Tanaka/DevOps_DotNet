@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevOps_DotNet", "DevOps_DotNet\DevOps_DotNet.csproj", "{12F9F5AE-85A0-4B73-9E6E-3E161A490B66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevOps_DotNet.Tests", "DevOps_DotNet.Tests\DevOps_DotNet.Tests.csproj", "{8C7E3E31-4B23-411B-A4EB-AF36D027D5ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12F9F5AE-85A0-4B73-9E6E-3E161A490B66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12F9F5AE-85A0-4B73-9E6E-3E161A490B66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12F9F5AE-85A0-4B73-9E6E-3E161A490B66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12F9F5AE-85A0-4B73-9E6E-3E161A490B66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C7E3E31-4B23-411B-A4EB-AF36D027D5ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C7E3E31-4B23-411B-A4EB-AF36D027D5ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C7E3E31-4B23-411B-A4EB-AF36D027D5ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C7E3E31-4B23-411B-A4EB-AF36D027D5ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE1A6170-67C3-4791-9FAB-F23EF103CE3F}
+	EndGlobalSection
+EndGlobal
