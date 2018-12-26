@@ -16,6 +16,8 @@ namespace DevOps_DotNet.Models
 
             public DbSet<Blog> Blogs { get; set; }
             public DbSet<Post> Posts { get; set; }
+
+            public DbSet<Hoge> Hoge { get; set; }
         }
 
         public class Blog
