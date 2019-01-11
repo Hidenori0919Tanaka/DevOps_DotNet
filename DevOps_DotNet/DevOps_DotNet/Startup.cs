@@ -58,7 +58,7 @@ namespace DevOps_DotNet
 
             //services.AddDbContext<MvcMovieContext>(options =>
             //        options.UseSqlServer(Configuration.GetConnectionString("MvcMovieContext")));
-            services.AddDbContext<BloggingContext>(options =>
+            services.AddDbContext<DevOps_DotNetContext>(options =>
                                                    options.UseSqlServer(@"server=localhost;database=aspDotNetCoreHoge;uid=sa;pwd=Hoge1100;"));
         }
 

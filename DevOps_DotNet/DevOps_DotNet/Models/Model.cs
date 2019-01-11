@@ -8,9 +8,9 @@ namespace DevOps_DotNet.Models
 {
     public class Model
     {
-        public class BloggingContext : DbContext
+        public class DevOps_DotNetContext : DbContext
         {
-            public BloggingContext(DbContextOptions<BloggingContext> options)
+            public DevOps_DotNetContext(DbContextOptions<DevOps_DotNetContext> options)
                 : base(options)
             { }
 

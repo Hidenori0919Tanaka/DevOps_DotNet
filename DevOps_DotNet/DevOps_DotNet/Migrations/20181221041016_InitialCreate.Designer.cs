@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace DevOps_DotNet.Migrations
 {
-    [DbContext(typeof(Model.BloggingContext))]
+    [DbContext(typeof(Model.DevOps_DotNetContext))]
     [Migration("20181221041016_InitialCreate")]
     partial class InitialCreate
     {
