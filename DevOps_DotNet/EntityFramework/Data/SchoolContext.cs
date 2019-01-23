@@ -8,7 +8,7 @@ namespace EntityFramework.Models
 {
     public class SchoolContext : DbContext
     {
-        public SchoolContext (DbContextOptions<SchoolContext> options)
+        public SchoolContext(DbContextOptions<SchoolContext> options)
             : base(options)
         {
         }
