@@ -6,12 +6,14 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using EntityFramework.Models;
+using EntityFramework.Repository;
 
 namespace EntityFramework.Controllers
 {
     public class StudentsController : Controller
     {
         private readonly SchoolContext _context;
+        private StudentsRepository _students;
 
         public StudentsController(SchoolContext context)
         {
@@ -20,7 +22,8 @@ namespace EntityFramework.Controllers
 
         public async Task<IActionResult> RepositoryIndex()
         {
-            return View(await _context.Student.ToListAsync());
+            _students = new StudentsRepository(_context);
+            return View(await _students.GetAll());
         }
 
         // GET: Students

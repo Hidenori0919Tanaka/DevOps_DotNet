@@ -7,6 +7,6 @@ namespace EntityFramework.Repository
 {
     public interface IStudent<T>
     {
-        List<T> GetAll();
+        Task<List<T>> GetAll();
     }
 }

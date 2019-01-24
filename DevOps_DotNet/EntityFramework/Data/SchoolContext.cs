@@ -13,6 +13,6 @@ namespace EntityFramework.Models
         {
         }
 
-        public DbSet<EntityFramework.Models.Student> Student { get; set; }
+        public DbSet<Student> Student { get; set; }
     }
 }

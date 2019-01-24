@@ -1,4 +1,5 @@
 ﻿using EntityFramework.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,9 +15,18 @@ namespace EntityFramework.Repository
             this.dbContext = dbContext;
         }
 
-        public List<Student> GetAll()
+        //public Task<List<Student>> GetAll()
+        //{
+        //    return dbContext.Student.ToListAsync();
+        //}
+        public Task<List<Student>> GetAll()
         {
-            return dbContext.Set<Student>().ToList();
+            using (var _context = dbContext)
+            {
+                return (from q in _context.Student
+                        select q).ToListAsync();
+            }
         }
+
     }
 }
