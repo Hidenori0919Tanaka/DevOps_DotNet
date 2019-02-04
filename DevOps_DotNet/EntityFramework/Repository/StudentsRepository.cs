@@ -14,7 +14,7 @@ namespace EntityFramework.Repository
         {
             this.dbContext = dbContext;
         }
-
+          
         //public Task<List<Student>> GetAll()
         //{
         //    return dbContext.Student.ToListAsync();
