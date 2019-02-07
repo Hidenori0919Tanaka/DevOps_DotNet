@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevOps_DotNet.Tests", "DevOps_DotNet.Tests\DevOps_DotNet.Tests.csproj", "{8C7E3E31-4B23-411B-A4EB-AF36D027D5ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestSample", "DevOps_DotNet.Tests\TestSample.csproj", "{8C7E3E31-4B23-411B-A4EB-AF36D027D5ED}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFramework", "EntityFramework\EntityFramework.csproj", "{AF1A269C-5D46-4B00-B2FD-AB663193B2BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevOps_DotNet", "DevOps_DotNet\DevOps_DotNet.csproj", "{EABDDED8-4B51-4F59-9E7A-4E0563B7E899}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevOps_DotNet", "DevOps_DotNet\DevOps_DotNet.csproj", "{EABDDED8-4B51-4F59-9E7A-4E0563B7E899}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

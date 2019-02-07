@@ -20,5 +20,17 @@ namespace DevOps_DotNet
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>();
+
+        //public static IWebHost BuildWebHost(string[] args)
+        //{
+        //    return WebHost
+        //        .CreateDefaultBuilder(args)
+        //        .UseKestrel()
+        //        .UseContentRoot(Directory.GetCurrentDirectory())
+        //        .UseIISIntegration()
+        //        .UseUrls("http://localhost:8080")
+        //        .UseStartup<Startup>()
+        //        .Build();
+        //}
     }
 }
