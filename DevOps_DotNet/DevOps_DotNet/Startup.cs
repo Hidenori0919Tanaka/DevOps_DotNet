@@ -67,7 +67,7 @@ namespace DevOps_DotNet
             app.UseCookiePolicy();
 
             app.UseAuthentication();
-
+            
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
